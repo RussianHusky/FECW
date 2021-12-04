@@ -10,7 +10,7 @@
 <body>
     <nav class = "navbar">
         <div class="navbar__container">
-            <a href = "#home" id="navbar__logo"><img src="./assets/Logo.png" width="80px" height="80px"></a>
+            <a href = "#home" id="navbar__logo"><img src="/assets/Logo.png" width="80px" height="80px"></a>
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -21,7 +21,7 @@
                     <a href="#main" class="navbar__links" id="home-page">Главная</a>
                 </li>
                 <li class="navbar__item">
-                  <a href="#history" class="navbar__links" id="history-page">История</a>
+                  <a href="#history__header" class="navbar__links" id="history-page">История</a>
                 </li>
                 <li class="navbar__item">
                     <a href="#parts__header" class="navbar__links" id="parts-page">Виды комплектующих</a>
@@ -36,7 +36,7 @@
     <div class="main" id="main">
         <div class="main__container">
           <div class="main__img--container">
-            <div class="main__img--card"><img src="./assets/computer-lab-icon-2.png"></div>
+            <div class="main__img--card"><img src="/assets/computer-lab-icon-2.png"></div>
           </div>
           <div class="main__content">
             <h2>Что такое компьютерные комплектующие?</h2>
@@ -51,14 +51,40 @@
         </div>
       </div>
 
-      <div class="main" id="history">
+      <div class="header" id="history__header">
+        <h2>История компьютерные комплектующих</h2>
       </div>
+
+      <div class="main" id="history">
+        <div class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h2>1953 - Первый компьютер IBM</h2>
+              <p><img src="./assets/FirstPC.jpg">ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ 
+                ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ 
+                ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ 
+                ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ ХУЙ 
+              </p>
+            </div>
+          </div>
+          <div class="container right">
+            <div class="content">
+              <h2>1968 - прототип компьютерной мышки</h2>
+              <p><img src="./assets/FirstMouse.jpeg">Дуглас Энгельбарт демонстрирует прототип современного компьютера на Осенней объединенной компьютерной конференции, Сан-Франциско. 
+                Его презентация под названием "Исследовательский центр для расширения человеческого интеллекта" включает живую демонстрацию компьютера, включая мышь и графический 
+                интерфейс пользователя (GUI), сообщает Институт Дуга Энгельбарта.</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+
       <div class="header" id="parts__header">
         <h2>Виды комплектующих</h2>
       </div>
       <div class="parts" id="parts">
-        <img class="imagelink" data-link="PCParts.html" src="./assets/PCPartsHover.png"/>
-        <img class="imagelink" data-link="PCPerif.html" src="./assets/PCPerifHover.png"/>
+        <img class="imagelink" data-link="PCParts.html" src="/assets/PCPartsHover.png"/>
+        <img class="imagelink" data-link="PCPerif.html" src="/assets/PCPerifHover.png"/>
       </div>
 
       <div class="footer__container" id="footer">
@@ -91,7 +117,7 @@
         <section class="social__media">
           <div class="social__media--wrap">
             <div class="footer__logo">
-              <a href="/" id="footer__logo"><img src="./assets/Logo.png" width="100px" height="100px"></a>
+              <a href="/" id="footer__logo"><img src="/assets/Logo.png" width="100px" height="100px"></a>
             </div>
             <p class="website__rights">© Le Chi Giang IKBO-13-20. All rights reserved</p>
             <div class="social__icons">
