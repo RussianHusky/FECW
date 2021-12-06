@@ -700,7 +700,7 @@
   }
 
 .modal-button{
-    visibility: hidden;
+    display: none;
   }
 
   .modal {
