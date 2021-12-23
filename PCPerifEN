@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontCW</title>
+    <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+    <nav class = "navbar">
+        <div class="navbar__container">
+            <a href = "index.html" id="navbar__logo"><img src="./assets/Logo.png" width="80px" height="80px"></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#pc__part" class="navbar__links" id="home-page">Главная</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="#pc__part1" class="navbar__links" id="history-page">Периферии</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#footer" class="navbar__links" id="services-page">Автор</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
+    <div class="header" id="pc__part">
+      <h3>Modern desktops</h3>
+    </div>
+
+    <div class="parts3" id="pc">
+      <img src="./assets/workstation.jpeg">
+      <img src="./assets/PCPerif.jpg">
+      <img src="./assets/workstation1.webp">
+      <img src="./assets/gaming-setup.jpg">
+    </div>
+
+    <div class="header" id="pc__part1">
+      <h3>What's on a modern desktop</h3>
+    </div>
+
+    <div class="parts2" id="pc">
+      <img src="./assets/Perif.png" usemap="#image-map">
+      <map name="image-map">
+        <button class="modal-button" href="#myModal1"><area target="" alt="Case1" title="Case1" href="#myModal1" coords="56,487,247,11" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="Case2" title="Case2" href="#myModal1" coords="512,488,321,13" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="MoBo" title="MoBo" coords="622,47,942,300" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="SSD" title="SSD" href="" coords="25,559,102,560,102,536,205,536,209,687,132,689,129,711,27,712" shape="poly"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="HDD" title="HDD" href="" coords="289,560,355,559,356,534,465,537,467,688,399,689,399,714,289,712" shape="poly"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="CPU" title="CPU" href="" coords="547,547,697,698" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="GPU" title="GPU" href="" coords="752,566,1008,695" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="RAM" title="RAM" href="" coords="17,826,28,826,153,726,178,756,92,824,191,827,193,866,17,866" shape="poly"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="AudioCard" title="AudioCard" href="" coords="281,743,451,860" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="NetworkCard" title="NetworkCard" href="" coords="549,733,734,860" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="DVD" title="DVD" href="" coords="812,772,1004,853" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="PSU" title="PSU" href="" coords="600,355,788,478" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="Fan" title="Fan" href="" coords="835,353,972,489" shape="rect"></button>
+    </map>
+    </div>
+
+    <div id="myModal1" class="modal">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">×</span>
+          <h2>Колонки спикеры/динамики</h2>
+        </div>
+        <div class="modal-body">
+          <p>Компьютерные колонки, или мультимедийные колонки, - это колонки, продаваемые для использования с компьютерами, хотя обычно они могут использоваться и для других 
+            аудио целей, например, для MP3-плеера. Большинство таких колонок имеют внутренний усилитель и, следовательно, требуют источника питания, который может быть от сети, 
+            часто через адаптер переменного тока, батарей или USB-порта. Входной разъем часто представляет собой 3,5-мм штекер (обычно окрашенный в зеленый цвет в соответствии со 
+            стандартом PC 99); иногда используются разъемы RCA, а порт USB может подавать и сигнал, и питание (что требует дополнительных схем и подходит только для использования с 
+            компьютером). Беспроводные динамики Bluetooth, работающие от аккумуляторов, вообще не требуют подключения. В большинстве компьютеров встроены динамики низкой мощности и 
+            качества; при подключении внешних динамиков они отключают встроенные.
+        </p>
+          <div class="parts1" id="pc">
+            <img src="./assets/speakers1.png">
+            <img src="./assets/speakers2.png">
+            <img src="./assets/speakers3.png">
+            <img src="./assets/speakers4.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="footer__container" id="footer">
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="/" id="footer__logo"><img src="./assets/Logo.png" width="100px" height="100px"></a>
+            </div>
+            <p class="website__rights">©Le Chi Giang IKBO-13-20. All rights reserved.</p>
+            <a href="PCPerifRU.html" class="language">RU</a>
+          </div>
+        </section>
+      </div>
+      <script src="app.js?v=2"></script>
+</body>
+</html>
