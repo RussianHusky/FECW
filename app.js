@@ -2,7 +2,7 @@ const menu = document.querySelector('#mobile-menu')
 const menuLinks = document.querySelector('.navbar__menu')
 
 document.querySelectorAll('.imagelink').forEach((image) => {
-	image.addEventListener('click', () => { window.open(image.getAttribute('data-link')); });
+	image.addEventListener('click', () => { window.open(image.getAttribute('data-link'), "_self"); });
 });
 
 const mobileMenu = () => {
