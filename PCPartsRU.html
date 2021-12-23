@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontCW</title>
+    <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+    <nav class = "navbar">
+        <div class="navbar__container">
+            <a href = "index.html" id="navbar__logo"><img src="/assets/Logo.png" width="80px" height="80px"></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#pc__part" class="navbar__links" id="home-page">Главная</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="#pc__part1" class="navbar__links" id="history-page">Комплектующие</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#footer" class="navbar__links" id="services-page">Автор</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header" id="pc__part">
+      <h3>Как выглядят современные системные блоки</h3>
+    </div>
+
+    <div class="parts1" id="pc">
+      <img src="/assets/PC.JPG">
+      <img src="/assets/PCParts.png">
+      <img src="/assets/PC1.JPG">
+    </div>
+
+    <div class="header" id="pc__part1">
+      <h3>Что внутри современного системного блока</h3>
+    </div>
+
+    <div class="parts2" id="pc">
+      <img src="./assets/Parts.png" usemap="#image-map">
+      <map name="image-map">
+        <button class="modal-button" href="#myModal1"><area target="" alt="Case1" title="Case1" href="#myModal1" coords="56,487,247,11" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="Case2" title="Case2" href="#myModal1" coords="512,488,321,13" shape="rect"></button>
+        <button class="modal-button" href="#myModal2"><area target="" alt="MoBo" title="MoBo" href="#myModal2" coords="622,47,942,300" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="SSD" title="SSD" href="" coords="25,559,102,560,102,536,205,536,209,687,132,689,129,711,27,712" shape="poly"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="HDD" title="HDD" href="" coords="289,560,355,559,356,534,465,537,467,688,399,689,399,714,289,712" shape="poly"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="CPU" title="CPU" href="" coords="547,547,697,698" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="GPU" title="GPU" href="" coords="752,566,1008,695" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="RAM" title="RAM" href="" coords="17,826,28,826,153,726,178,756,92,824,191,827,193,866,17,866" shape="poly"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="AudioCard" title="AudioCard" href="" coords="281,743,451,860" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="NetworkCard" title="NetworkCard" href="" coords="549,733,734,860" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="DVD" title="DVD" href="" coords="812,772,1004,853" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="PSU" title="PSU" href="" coords="600,355,788,478" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="Fan" title="Fan" href="" coords="835,353,972,489" shape="rect"></button>
+    </map>
+    </div>
+
+    <div id="myModal1" class="modal">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">×</span>
+          <h2>Компьютерный корпус</h2>
+        </div>
+        <div class="modal-body">
+          <p>Компьютерный корпус (англ. computer case) — физически представляет собой базовую несущую конструкцию (шасси), которая предназначена для последующего наполнения 
+            аппаратным обеспечением с целью создания компьютера. </p><br>
+            <p>Фронтальная сторона корпуса компьютера обычно оборудована:
+              <ul>
+              <li>кнопками включения и перезагрузки. На корпусах форм-фактора AT обычно имеется кнопка Turbo, 
+              на некоторых ATX ранних выпусков встречается отдельная кнопка ждущего режима;</li>
+              <li>светодиодами-индикаторами отображающими работу компьютера, состояние питания и накопителей, состояние жесткого диска;</li>
+              <li>гнёздами для подключения наушников и микрофона;</li>
+              <li>разъемами для подключения некоторых внешних устройств с интерфейсами передачи данных (USB, FireWire).</li>
+            </ul>
+          </p>
+          <p>Основными (имеющимися почти на всех материнских платах формата ATX) на тыльной стороне корпуса разъёмами являются:
+            <ul>
+            <li>PS/2 разъёмы для подключения клавиатуры (фиолетовый) и мыши (зелёный). Также может встречаться универсальный разъём, вертикально разделённый двумя цветами. 
+            На данный момент является устаревшим: прослеживается тенденция замены этого разъёма более современным USB, но на бюджетных и среднеценовых платах этот 
+            разъём(ы) по прежнему встречается;
+            <li>3,5-мм разъёмы (3 или 6) встроенной звуковой платы, из которых основные:</li><ul>
+                <li>линейный выход (зелёный);</li>
+                <li>линейный вход (синий);</li>
+                <li>микрофонный вход (розовый);</li>
+            </ul>
+            <li>от 4 до 8 (ранее — 2) USB разъёмов, парами;</li>
+              <li>разъём для подключения к локальной сети.</li>
+          </ul>
+        </p>
+          <div class="parts1" id="pc">
+            <img src="/assets/case1.png">
+            <img src="/assets/case2.png">
+            <img src="/assets/case3.png">
+            <img src="/assets/case4.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal2" class="modal">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">×</span>
+          <h2>Материнская плата</h2>
+        </div>
+        <div class="modal-body">
+          <p>Материнские платы – оборудование, являющееся основой любого стационарного компьютера. Возможности техники этого вида могут отличаться очень сильно. Производители 
+            выпускают системные платы (это название материнских плат имеет широкое распространение), предназначенные для решения любых задач. Очень популярны в настоящее время платы 
+            форм-факторов Micro-ATX и Mini-ITX, на базе которых можно создать компактный компьютер, используемый как дома, так и в офисе. Полноразмерные платы (Standard-ATX и E-ATX) 
+            предоставляют максимум возможностей при компоновке системы. Выбор материнских плат зависит не только от форм-фактора, но и от других свойств. Вам нужно будет определиться
+             с предпочитаемым производителем процессора (Intel или AMD). Для любой системной платы указывается максимально допустимый объем оперативной памяти. Любители игр наверняка
+              обратят внимание на количество слотов PCI-E x16 и на поддержку мультипроцессорной конфигурации. Встроенный адаптер Wi-Fi позволит вам не задействовать сторонние 
+              устройства при подключении к беспроводным сетям. Если вы хотите собрать компьютер, преимущественно используемый для видеоигр, то наверняка есть смысл выбрать 
+              материнскую плату, предназначенную для игрового компьютера. Редкие системные платы имеют интегрированный центральный процессор. Такие платы обычно используются 
+              при сборке офисных компьютеров. Материнские платы ведущих мировых производителей вы сможете купить в интернет-магазине DNS. Товары высокого качества поспособствуют 
+              эффективности вашей деятельности. </p><br>
+          <div class="parts1" id="pc">
+            <img src="/assets/Motherboard.png">
+            <img src="/assets/Motherboard1.png">
+            <img src="/assets/Motherboard2.png">
+            <img src="/assets/motherboard.webp">
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="footer__container" id="footer">
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="/" id="footer__logo"><img src="/assets/Logo.png" width="100px" height="100px"></a>
+            </div>
+            <p class="website__rights">©Ле Тьи Зианг ИКБО-13-20. Все правы защищены.</p>
+            <a href="PCPartsEN.html" class="language">EN</a>
+          </div>
+        </section>
+      </div>
+      <script src="app.js?v=2"></script>
+</body>
+</html>

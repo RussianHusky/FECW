@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontCW</title>
+    <link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+    <nav class = "navbar">
+        <div class="navbar__container">
+            <a href = "index.html" id="navbar__logo"><img src="/assets/Logo.png" width="80px" height="80px"></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#pc__part" class="navbar__links" id="home-page">Main</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="#pc__part1" class="navbar__links" id="history-page">Parts</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#footer" class="navbar__links" id="services-page">Author</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header" id="pc__part">
+      <h3>How does the modern PC look like</h3>
+    </div>
+
+    <div class="parts1" id="pc">
+      <img src="/assets/PC.JPG">
+      <img src="/assets/PCParts.png">
+      <img src="/assets/PC1.JPG">
+    </div>
+
+    <div class="header" id="pc__part1">
+      <h3>What's inside a modern PC</h3>
+    </div>
+
+    <div class="parts2" id="pc">
+      <img src="./assets/Parts.png" usemap="#image-map">
+      <map name="image-map">
+        <button class="modal-button" href="#myModal1"><area target="" alt="Case1" title="Case1" href="#myModal1" coords="56,487,247,11" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="Case2" title="Case2" href="#myModal1" coords="512,488,321,13" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="MoBo" title="MoBo" coords="622,47,942,300" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="SSD" title="SSD" href="" coords="25,559,102,560,102,536,205,536,209,687,132,689,129,711,27,712" shape="poly"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="HDD" title="HDD" href="" coords="289,560,355,559,356,534,465,537,467,688,399,689,399,714,289,712" shape="poly"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="CPU" title="CPU" href="" coords="547,547,697,698" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="GPU" title="GPU" href="" coords="752,566,1008,695" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="RAM" title="RAM" href="" coords="17,826,28,826,153,726,178,756,92,824,191,827,193,866,17,866" shape="poly"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="AudioCard" title="AudioCard" href="" coords="281,743,451,860" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="NetworkCard" title="NetworkCard" href="" coords="549,733,734,860" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="DVD" title="DVD" href="" coords="812,772,1004,853" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="PSU" title="PSU" href="" coords="600,355,788,478" shape="rect"></button>
+        <button class="modal-button" href="#myModal1"><area target="" alt="Fan" title="Fan" href="" coords="835,353,972,489" shape="rect"></button>
+    </map>
+    </div>
+
+    <div id="myModal1" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">×</span>
+          <h2>Computer case</h2>
+        </div>
+        <div class="modal-body">
+          <p>A computer case, also known as a computer chassis, tower, system unit, or cabinet, is the enclosure that contains most of the components of a personal computer 
+            (usually excluding the display, keyboard, and mouse). Cases are usually constructed from steel (often SECC—steel, electrogalvanized, cold-rolled, coil), aluminium and 
+            plastic. Other materials such as glass, wood, acrylic and even Lego bricks have appeared in home-built cases. </p><br>
+            <p>The front of the computer case is usually equipped with:
+              <ul>
+              <li>power and reset buttons. The AT form factor cases usually have a Turbo button, 
+                Some early ATX cases have a separate standby button;</li>
+              <li>LED indicators showing computer operation, power and storage status, and hard drive status;</li>
+              <li>sockets for headphones and a microphone;</li>
+              <li>connectors for some external devices with data transfer interfaces (USB, FireWire).</li>
+            </ul>
+          </p>
+          <p>The main (available on almost all ATX-format motherboards) connectors on the back of the case are:
+            <ul>
+            <li>PS/2 connectors for keyboard (purple) and mouse (green). You can also find a universal connector, vertically separated by two colors. 
+              At the moment it is obsolete: there is a tendency to replace this connector with more modern USB, but on low- and middle-price boards this 
+              but this connector(s) can still be found on low-end and mid-price boards;
+            <li>3.5mm jacks (3 or 6) of the integrated sound card, of which the main:</li><ul>
+                <li>line output (green);</li>
+                <li>line input (blue);</li>
+                <li>microphone input (pink);</li>
+            </ul>
+            <li>4 to 8 (previously 2) USB connectors, in pairs;</li>
+              <li>connector for connecting to the local network.</li>
+          </ul>
+        </p>
+          <div class="parts1" id="pc">
+            <img src="/assets/case1.png">
+            <img src="/assets/case2.png">
+            <img src="/assets/case3.png">
+            <img src="/assets/case4.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="myModal2" class="modal">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">×</span>
+          <h2>Motherboard</h2>
+        </div>
+        <div class="modal-body">
+          <p>Motherboards are the hardware that is the backbone of any desktop computer. The capabilities of this type of hardware can vary greatly. Manufacturers 
+            produce motherboards (this is the name of the motherboard is widely used), designed to solve any problems. Very popular nowadays motherboards 
+            Form-factors Micro-ATX and Mini-ITX, on the basis of which it is possible to create a compact computer used both at home and in office. Full-size boards (Standard-ATX and E-ATX) 
+            Give you the best flexibility for your system layout. The choice of motherboards depends not only on the form factor, but also on other features. You will need to determine
+             Which brand of processor (Intel or AMD) you prefer. For any motherboard, the maximum allowable amount of RAM is specified. Gaming enthusiasts will surely
+              pay attention to the number of PCI-E x16 slots and multiprocessor support. There is also a built-in Wi-Fi adaptor so you don't have to use any third-party devices for wireless networking. 
+              devices to connect to wireless networks. If you want to build a computer mainly used for video games, it probably makes sense to choose 
+              A motherboard designed for a gaming computer. Rare motherboards have an integrated CPU. These boards are commonly used 
+              Office computer designs. You can buy motherboards from the world's leading manufacturers at the DNS Online Store. High quality products will contribute 
+              the efficiency of your work.</p><br>
+          <div class="parts1" id="pc">
+            <img src="/assets/Motherboard.png">
+            <img src="/assets/Motherboard1.png">
+            <img src="/assets/Motherboard2.png">
+            <img src="/assets/motherboard.webp">
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="footer__container" id="footer">
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="/" id="footer__logo"><img src="/assets/Logo.png" width="100px" height="100px"></a>
+            </div>
+            <p class="website__rights">©Le Chi Giang IKBO-13-20. All rights reserved.</p>
+            <a href="PCPartsRU.html" class="language">RU</a>
+          </div>
+        </section>
+      </div>
+      <script src="app.js?v=2"></script>
+</body>
+</html>
